@@ -5,44 +5,30 @@
 
 body{
     background-color:
-}*/
+}
 p{
     font: normal 16px Arial, Helvetica, sans-serif;
-}
-.container{
-    width: 50%;
-    margin: auto;
-    background-size: cover;
-    font-size: 100%;
-    padding: 8px 12px;
-    margin-left: 10px;
-    
-}
-.container .righ img{
-    background: crimson;
-    padding: 10px 30px;
-    margin-top: 20px;
-    margin-right: 1px;
-    border-radius: 6px;
-    border: 1px solid crimson;
+}*/
+.about{
+    background-color: silver;
 }
 
-.container h1{
-    color:blue;
-    text-align: center;
-    
+
+.about .about-content .left{
+    width: 45%;
 }
-.box-1 h2{
-    text-transform: uppercase;
-    
-    text-align: right;
-    margin-top:0; 
-    margin-right: 0;
+.about .about-content .left img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
 }
-.box-1 p{    
-    text-align: center;
-    
+.about .about-content .right{
+    width: 60%;
+
+
 }
+
 .myname{
         padding-bottom: 15px;
 }
@@ -57,6 +43,17 @@ p{
     background-color: blue;
     color:black;
 }
+.myname img{
+    background: greenyellow;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 180px;
+    border: 1px solid ; 
+    width: 25%;
+    
+}
+
 .block{
     float:left;
     width:50%;
@@ -67,9 +64,7 @@ p{
     width: 50%;
     margin: auto;
 }
-.bllook{
-    margin-top:250px;
-}
+
 .known{
     flex:1;
     text-align:right;
@@ -107,7 +102,17 @@ p{
     background: crimson;
     padding: 10px 30px;
     margin-top: 20px;
-    margin-right: 1px;
-    border-radius: 6px;
-    border: 1px solid ; 
+    margin-right: 10px;
+    border-radius: 60px;
+    border: 10px solid ; 
+    width: 30%;
+    display: block;
+}
+.bllook{
+    margin-top:250px;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
